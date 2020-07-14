@@ -1,0 +1,134 @@
+@charset "UTF-8";
+
+body {
+    background-color: black;
+}
+
+interface {
+    width: 900px;
+}
+
+h1 {   
+    font-size: 50px; 
+    text-shadow: 1px 1px 1px black;
+    color: antiquewhite;
+    opacity: 0.7;
+    margin-bottom: -20px;
+    margin-left: 80px;
+}
+
+h2 {
+    font-size: 40px;
+    color: antiquewhite;
+    text-shadow: 1px 1px 1px black;
+    opacity: 0.7;
+    margin-top: -10px;
+    margin-left: 74px;
+}
+
+ h3 {
+    font-size: 50px;
+    color: antiquewhite;
+    opacity: 0.3;
+    
+}
+
+section#profile {
+    display: block;
+    width: 550px;
+    float: left;
+    background-color: #090909;
+    padding: 0px 0px 0px 25px;
+    margin: 45px 0px 10px 154px;
+    
+}
+
+aside#menuprofile {
+    background-color: #090909;
+    margin: 45px 154px 10px 0px;
+    display: block;
+    width: 350px;
+    float: right;
+    padding: 0px 50px 57px 50px;
+
+}
+
+footer#down {
+    clear: both;
+}
+
+footer#down p {
+    text-align: center;
+    opacity: 0.3;
+}
+
+p {
+    text-align: justify;
+    color: rgba(250, 235, 215, 0.5);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    line-height: 1.5;
+    text-shadow: 1px 1px 1px black;
+    border-bottom: 1px  rgba(250, 235, 215, 0.1) solid;
+}
+
+figure.personalphoto {
+    position: relative;
+    box-shadow: 0px 0px 5px black;
+    border: 1px solid black;
+    top: -50px;
+    right: -20px;
+}
+figure.personalphoto img{
+    width: 100%;
+    height: 100%;
+}
+
+figure.personalphoto figcaption {
+    position: absolute;
+    top: 420px;
+}
+
+
+/* Formatação Menu*/
+nav#menu ul {
+    list-style: none;
+    position: relative;
+}
+
+nav#menu li {
+    display: inline-block;
+    font-size: 20px;
+    text-shadow: 1px 1px 1px black;
+    background-color: rgba(09, 09, 09, 1);
+    padding: 10px;
+    margin: 0px 12px 0px 12px;
+    transition: background-color 1s;
+    opacity: 0.1;
+}
+
+nav#menu li:hover {
+    opacity: 0.5;
+}
+
+nav#menu a {
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+/* Formatação Menu Redes Sociais*/
+nav#socialmedia1 ul {
+    list-style: none;
+    position: absolute;
+    margin-top: 110px;
+    margin-left: -80px;
+}
+
+figure.contact1 img {
+    opacity: 0.1;
+    margin-bottom: 50px;
+}
+
+figure.contact1 img:hover {
+    opacity: 0.5;
+}

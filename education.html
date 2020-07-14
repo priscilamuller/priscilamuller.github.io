@@ -1,0 +1,98 @@
+<!DOCTYPE <!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">  
+    </head>
+
+    <script>
+        function changePhoto(photo) {
+            document.getElementById("phototheme").src = photo;
+        }
+    </script>  
+
+    <body>
+
+        <div id="interface">
+
+            <section id="profile">
+                <figure class="contact1">
+                    <nav id="socialmedia1">
+                        <ul>
+                            <li> <a href="https://www.facebook.com/priscila.mullermilaneli/" target="_blank"> <img src="image/face.png" alt=""> </a></li>
+                            <li> <a href="https://www.instagram.com/priscillamuller/?hl=pt-br" target="_blank"> <img src="image/instagram.png" alt=""> </a> </li>
+                            <li> <a href="https://www.linkedin.com/in/priscila-m%C3%BCller-milaneli-671b43193/" target="_blank"> <img src="image/linkedin.png" alt=""> </a></li>
+                            <li> <a href="https://github.com/priscilamuller"target="_blank"> <img src="image/github.png" alt=""> </a></li>
+                        </ul> 
+                    </nav> 
+                </figure>
+
+                <figure class="personalphoto">
+                    <img id="phototheme" src="image/education.jpg"/>
+
+                    <figcaption>
+
+                        <hgroup>
+                            <h1>Priscila Müller</h1>
+                            <h2>Computer engineer</h2>
+                        </hgroup> 
+
+
+                    </figcaption>
+       
+                </figure>
+
+            </section>
+
+
+
+
+            <aside id="menuprofile">
+
+                <nav id="menu">
+                    <ul>
+                        <li onmouseover="changePhoto('image/pp2.jpg')"><a href="index.html"target="_self"> home </a></li>
+                        <li onmouseover="changePhoto('image/education.jpg')"><a href="education.html"target="_self"> education </a> </li>
+                        <li onmouseover="changePhoto('image/skills.jpg')"> <a href="skills.html"target="_self"> skills </a></li>
+                     </ul> 
+                </nav>     
+
+                <hgroup>
+                <h3>education</h3>
+                </hgroup>
+
+            <p>Universidade Virtual do Estado de São Paulo<br/>
+                Engenharia de Computação (2018 – 2022)<br/><br/>
+            
+                Fundação Getúlio Vargas<br/>
+                Certificação Interna Banco do Brasil<br/>
+                Tecnologia da Informação – Infraestrutura (2019)<br/>
+                Intermediário<br/><br/>
+
+                
+            
+                Fundação Getúlio Vargas<br/>
+                Certificação Interna Banco do Brasil<br/>
+                Tecnologia da Informação – Construção de Aplicativos (2019)<br/>
+                Intermediário<br/><br/>
+            
+                Universidade Federal do ABC<br/>
+                Software Livre em Neurociências (2019)<br/>
+                </p>
+        </aside>
+        <footer id="down">
+
+            <p>Copyright &copy; 2020 - by Priscila Müller</p>
+
+        </footer>
+
+    </div>
+
+</body>
+
+</html>  
+
+
+

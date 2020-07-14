@@ -1,0 +1,85 @@
+<!DOCTYPE <!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">  
+    </head>
+
+    <script>
+        function changePhoto(photo) {
+            document.getElementById("phototheme").src = photo;
+        }
+    </script>  
+
+    <body>
+
+        <div id="interface">
+
+            <section id="profile">
+                <figure class="contact1">
+                    <nav id="socialmedia1">
+                        <ul>
+                            <li> <a href="https://www.facebook.com/priscila.mullermilaneli/" target="_blank"> <img src="image/face.png" alt=""> </a></li>
+                            <li> <a href="https://www.instagram.com/priscillamuller/?hl=pt-br" target="_blank"> <img src="image/instagram.png" alt=""> </a> </li>
+                            <li> <a href="https://www.linkedin.com/in/priscila-m%C3%BCller-milaneli-671b43193/" target="_blank"> <img src="image/linkedin.png" alt=""> </a></li>
+                            <li> <a href="https://github.com/priscilamuller"target="_blank"> <img src="image/github.png" alt=""> </a></li>
+                        </ul> 
+                    </nav> 
+                </figure>
+
+                <figure class="personalphoto">
+                    <img id="phototheme" src="image/pp2.jpg"/>
+
+                    <figcaption>
+
+                        <hgroup>
+                            <h1>Priscila Müller</h1>
+                            <h2>Computer engineer</h2>
+                        </hgroup> 
+
+
+                    </figcaption>
+       
+                </figure>
+
+            </section>
+
+
+
+
+            <aside id="menuprofile">
+
+                <nav id="menu">
+                    <ul>
+                        <li onmouseover="changePhoto('image/pp2.jpg')"><a href="index.html"target="_self"> home </a></li>
+                        <li onmouseover="changePhoto('image/education.jpg')"><a href="education.html"target="_self"> education </a> </li>
+                        <li onmouseover="changePhoto('image/skills.jpg')"> <a href="skills.html"target="_self"> skills </a></li>
+                     </ul> 
+                </nav>     
+
+                <hgroup>
+                <h3>about me</h3>
+                </hgroup>
+   
+
+
+                <p>Graduanda em engenharia da computação, apaixonada por ciência, tecnologia e filosofia. Entusiasta de Inteligência Artificial, das ideias que buscam replicar o funcionamento do cérebro humano, alicerçadas ou inspiradas pela neurociência, às futuras implicações éticas que surgirão no decorrer do irremissível caminho que está sendo traçado na ânsia de conceder às máquinas características humanas. A pareidolia deixa de ser um fenômeno para se tornar um desejo que nos lancará na Singularidade.<br/>
+                Acredito que a consciência possa ser programada porque parto da premissa de que a seleção natural já o fez codificando timina, adenina, citosina e guanina. <br/>
+                Afinal, não somos também nós, em essência, frutos de uma sequência de códigos? <br/><br/></p>
+    
+            </aside>
+
+
+            <footer id="down">
+
+                <p>Copyright &copy; 2020 - by Priscila Müller</p>
+
+            </footer>
+  
+        </div>
+
+    </body>
+
+</html>
