@@ -33,6 +33,26 @@ h2 {
     
 }
 
+table#skills {
+    border: 1px solid rgba(250, 235, 215, 0.3);
+    border-spacing: 0px;
+    color: antiquewhite;
+    opacity: 0.5;
+}
+
+table#skills td {
+    border: 1px solid  rgba(250, 235, 215, 0.3);
+    padding: 19px 40px 18px 40px;
+}
+table#skills td.lclass {
+    background-color: rgba(250, 235, 215, 0.1);;
+
+}
+
+table#skills td.rclass {
+    background-color:  rgba(250, 235, 215, 0.1);;
+}
+
 section#profile {
     display: block;
     width: 550px;
